@@ -30,6 +30,8 @@ This will run with default values of 1000 transactions and using `.config` file.
 python3 camino_stress.py
 ```
 
+<img width="1114" height="802" alt="image" src="https://github.com/user-attachments/assets/d975e857-b8f9-4d13-9747-f29cdc77a305" />
+
 ### Run with custom values
 
 This will run for 5000 transactions and using `.config.local` file.
@@ -58,6 +60,8 @@ This will run 4 wallets and 500 transactions each.
 python3 fanout_stress.py --wallets 4 --count 500
 ```
 
+<img width="1461" height="1886" alt="image" src="https://github.com/user-attachments/assets/cd9c3665-de43-44cc-913b-1e342f2dd14d" />
+
 ## Funds Recovery
 
 The fanout script does a funds recovery from the generated wallets back to the
@@ -73,3 +77,5 @@ recover them.
 ```
 python3 recover_funds.py --wallets 4
 ```
+
+<img width="1461" height="1311" alt="image" src="https://github.com/user-attachments/assets/ade68f1a-ab53-41fd-be0a-a36ce057701e" />
