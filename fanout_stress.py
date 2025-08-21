@@ -501,7 +501,9 @@ class FanOutStressTester:
             for wallet in wallets:
                 success = await self.recover_funds_with_retry(wallet)
                 if success:
-                    self.logger.info(f"Successfully recovered funds from {wallet.address}")
+                    self.logger.debug(f"Successfully recovered funds from {wallet.address}")
+                else:
+                    self.logger.warning(f"Failed to recover funds from {wallet.address}")
                 progress.update(task, advance=1)
 
         self.console.print("✅ Fund recovery completed", style="green")
