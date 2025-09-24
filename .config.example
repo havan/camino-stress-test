@@ -1,0 +1,12 @@
+# Blockchain RPC endpoint
+RPC_URL="https://columbus.camino.network/ext/bc/C/rpc"
+
+# Chain ID
+CHAIN_ID=501
+
+# The private key of the wallet sending transactions (without the '0x' prefix)
+# This is the private key from "View Static Keys" in the Camino Suite.
+PRIVATE_KEY="YOUR_PRIVATE_KEY_HERE"
+
+# The address to send the transactions to
+TO_ADDRESS="0x..."
